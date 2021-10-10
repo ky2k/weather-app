@@ -1,0 +1,49 @@
+
+.menu_icon:hover{
+  cursor:pointer;
+}
+.open_icon{
+  left: -0.089rem;
+}
+.close_icon{
+  display: none;
+}
+.menu{
+  display: none;
+}
+.b-back{
+  display: none;
+}
+.b-front{
+  display: inline-block;
+}
+
+//searching
+.s-icon{
+  transform: scale(1.4);
+}
+.sca-e{
+  animation-name: search;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes search{
+  0%{ transform: scale(1.7) ;}
+  100%{transform: scale(0.98);}
+}
+.blink{
+  animation-name: blk;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes blk {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
